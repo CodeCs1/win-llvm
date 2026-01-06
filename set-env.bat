@@ -125,7 +125,7 @@ goto :loop
 :: essential (whoever needs tools, can just download a Release build)
 
 :dbg
-set CONFIGURATION=Debug
+set CONFIGURATION=RelWithDebInfo
 set DEBUG_SUFFIX=-dbg
 set LLVM_CMAKE_CONFIGURE_EXTRA_FLAGS=-DLLVM_BUILD_TOOLS=OFF -DLLVM_ENABLE_ASSERTIONS=ON
 set RUNTIME_CMAKE_CONFIGURE_EXTRA_FLAGS=
